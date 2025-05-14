@@ -1,0 +1,92 @@
+/* Main container styling */
+.project-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #E0F7FA;
+  max-width: 1270px;
+}
+
+.project-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  margin-left: 230px;
+}
+
+/* Grid layout for the project cards */
+.project-grid {
+  margin-left: 230px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Styling each project card */
+.project-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  color: #007bff; /* Primary color for project titles */
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+.project-card button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+@media(max-width:600px){
+  .project-container h1 {
+    margin-left: 0;
+  }
+
+  .project-grid {
+    margin-left: 0;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .project-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-left: 0;
+  }
+}

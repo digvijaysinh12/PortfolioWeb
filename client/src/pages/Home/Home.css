@@ -1,0 +1,56 @@
+.home-container{
+    height: 300px;
+    color:white;
+    margin-left: 0px;
+    width: 100%;
+    max-width: 1240px;
+}
+
+.home-content h2{
+    padding: 5px;
+    padding-top:80px;
+    margin-left: 230px;
+}
+
+.home-content h1{
+    color: #f3c90c;
+    padding-top:5px;
+    margin-left: 230px;
+}
+
+.home-buttons{
+    margin-left: 230px;
+    gap: 15px;
+}
+
+.home-buttons .btn-hire{
+    background-color:#3b8ff3;
+    width: 160px;
+}
+
+
+.home-buttons .btn-cv{
+    margin-left: 20px;
+    background-color: bisque;
+    width: 160px;
+}
+
+@media(max-width:600px){
+    .home-content h2{
+        padding: 5px;
+        padding-top:80px;
+        margin-left: 0;
+    }
+    .home-content h1{
+        color: #f3c90c;
+        padding-top:5px;
+        margin-left: 0px;
+    }
+
+    .home-buttons{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        gap: 15px;
+    }
+}

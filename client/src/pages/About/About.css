@@ -1,0 +1,43 @@
+.about {
+    padding: 20px;
+    background-color:#E0F7FA;
+    max-width: 1270px;
+}
+
+.row { 
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.about-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+@media(max-width:600px){
+    .row { 
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .about-img img {
+        height: 100%;
+        width: 100%;
+    }
+}
