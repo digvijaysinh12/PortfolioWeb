@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "portfolio app",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "build": "react-scripts build",
+  "start": "react-scripts start",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+,
   "keywords": [
     "Digvijaysinh",
     "Sarvaiya"
